@@ -30,4 +30,4 @@ RUN chown -R cantaloupe /cantaloupe/settings.txt
 
 USER cantaloupe
 
-CMD ["sh" "-c" "java -Dcantaloupe.config=/cantaloupe/settings.txt -jar /cantaloupe/cantaloupe-$CANTALOUPE_VERSION.jar"]
+CMD ["sh", "-c", "java -Dcantaloupe.config=/cantaloupe/settings.txt -jar /cantaloupe/cantaloupe-$CANTALOUPE_VERSION.jar"]
